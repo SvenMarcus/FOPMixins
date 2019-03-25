@@ -5,9 +5,9 @@
 #include "BaseGraph.h"
 
 void BaseGraph::addNode(Node *node) {
-    this->nodes->push_back(node);
+    this->nodes.push_back(node);
 }
 
 std::vector<Node *> BaseGraph::getNodes() {
-    return std::vector<Node *>(*this->nodes);
+    return std::vector<Node *>(this->nodes);
 }

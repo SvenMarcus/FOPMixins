@@ -12,9 +12,9 @@ class BaseEdge {
 public:
     BaseEdge(Node &start, Node &end);
 
-    Node* getStart();
+    Node& getStart();
 
-    Node* getEnd();
+    Node& getEnd();
 
 private:
     void addEdgeToNodes();

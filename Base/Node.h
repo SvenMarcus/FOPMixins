@@ -17,13 +17,13 @@ public:
 
     std::string getName();
 
-    void addEdge(BaseEdge *);
+    void addEdge(BaseEdge &);
 
-    std::vector<BaseEdge *> *getEdges();
+    std::vector<BaseEdge *> getEdges();
 
 private:
     std::string name;
-    std::vector<BaseEdge *> *edges = new std::vector<BaseEdge *>();
+    std::vector<BaseEdge *> edges;
 
 };
 

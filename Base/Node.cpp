@@ -14,10 +14,10 @@ std::string Node::getName() {
     return this->name;
 }
 
-void Node::addEdge(BaseEdge *edge) {
-    this->edges->push_back(edge);
+void Node::addEdge(BaseEdge &edge) {
+    this->edges.push_back(&edge);
 }
 
-std::vector<BaseEdge *>* Node::getEdges() {
+std::vector<BaseEdge *> Node::getEdges() {
     return this->edges;
 }

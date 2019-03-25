@@ -19,7 +19,7 @@ public:
         std::vector<Node *> nodes = Graph::getNodes();
         for (Node *node : nodes) {
             auto edges = node->getEdges();
-            auto size = edges->size();
+            auto size = edges.size();
             if (size % 2 != 0)
                 return false;
         }

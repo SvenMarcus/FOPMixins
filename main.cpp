@@ -23,7 +23,7 @@ int main() {
     Node c(c_str);
 
     Edge ab(3, a, b);
-    Edge ac(4, a, b);
+    Edge ac(4, a, c);
     Edge bc(5, b, c);
 
     Graph g;
@@ -34,8 +34,8 @@ int main() {
     std::cout << g.isEulerian() << std::endl;
 
     std::cout << "Weight " << ab.getWeight() << std::endl;
-    std::cout << "Start " << ab.getStart()->getName() << std::endl;
-    std::cout << "End " << ab.getEnd()->getName() << std::endl;
+    std::cout << "Start " << ab.getStart().getName() << std::endl;
+    std::cout << "End " << ab.getEnd().getName() << std::endl;
 
     return 0;
 }
