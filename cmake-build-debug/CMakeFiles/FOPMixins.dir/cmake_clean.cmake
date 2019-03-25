@@ -1,9 +1,8 @@
 file(REMOVE_RECURSE
   "CMakeFiles/FOPMixins.dir/main.cpp.o"
-  "CMakeFiles/FOPMixins.dir/Base/Graph.cpp.o"
+  "CMakeFiles/FOPMixins.dir/Base/BaseEdge.cpp.o"
   "CMakeFiles/FOPMixins.dir/Base/Node.cpp.o"
-  "CMakeFiles/FOPMixins.dir/Base/Edge.cpp.o"
-  "CMakeFiles/FOPMixins.dir/Hierholzer/HierholzerGraph.cpp.o"
+  "CMakeFiles/FOPMixins.dir/Base/BaseGraph.cpp.o"
   "FOPMixins.pdb"
   "FOPMixins"
 )

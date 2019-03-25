@@ -34,19 +34,19 @@ cmake_force:
 SHELL = /bin/sh
 
 # The CMake executable.
-CMAKE_COMMAND = /home/marcus/.local/share/JetBrains/Toolbox/apps/CLion/ch-0/183.5429.37/bin/cmake/linux/bin/cmake
+CMAKE_COMMAND = "/Users/svenmarcus/Library/Application Support/JetBrains/Toolbox/apps/CLion/ch-0/183.5429.37/CLion.app/Contents/bin/cmake/mac/bin/cmake"
 
 # The command to remove a file.
-RM = /home/marcus/.local/share/JetBrains/Toolbox/apps/CLion/ch-0/183.5429.37/bin/cmake/linux/bin/cmake -E remove -f
+RM = "/Users/svenmarcus/Library/Application Support/JetBrains/Toolbox/apps/CLion/ch-0/183.5429.37/CLion.app/Contents/bin/cmake/mac/bin/cmake" -E remove -f
 
 # Escaping for special characters.
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/marcus/CLionProjects/FOPMixins
+CMAKE_SOURCE_DIR = /Users/svenmarcus/Documents/Projects/FOPMixins
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/marcus/CLionProjects/FOPMixins/cmake-build-debug
+CMAKE_BINARY_DIR = /Users/svenmarcus/Documents/Projects/FOPMixins/cmake-build-debug
 
 # Include any dependencies generated for this target.
 include CMakeFiles/FOPMixins.dir/depend.make
@@ -59,88 +59,73 @@ include CMakeFiles/FOPMixins.dir/flags.make
 
 CMakeFiles/FOPMixins.dir/main.cpp.o: CMakeFiles/FOPMixins.dir/flags.make
 CMakeFiles/FOPMixins.dir/main.cpp.o: ../main.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/marcus/CLionProjects/FOPMixins/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/FOPMixins.dir/main.cpp.o"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/FOPMixins.dir/main.cpp.o -c /home/marcus/CLionProjects/FOPMixins/main.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/svenmarcus/Documents/Projects/FOPMixins/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/FOPMixins.dir/main.cpp.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/FOPMixins.dir/main.cpp.o -c /Users/svenmarcus/Documents/Projects/FOPMixins/main.cpp
 
 CMakeFiles/FOPMixins.dir/main.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/FOPMixins.dir/main.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/marcus/CLionProjects/FOPMixins/main.cpp > CMakeFiles/FOPMixins.dir/main.cpp.i
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/svenmarcus/Documents/Projects/FOPMixins/main.cpp > CMakeFiles/FOPMixins.dir/main.cpp.i
 
 CMakeFiles/FOPMixins.dir/main.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/FOPMixins.dir/main.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/marcus/CLionProjects/FOPMixins/main.cpp -o CMakeFiles/FOPMixins.dir/main.cpp.s
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/svenmarcus/Documents/Projects/FOPMixins/main.cpp -o CMakeFiles/FOPMixins.dir/main.cpp.s
 
-CMakeFiles/FOPMixins.dir/Base/Graph.cpp.o: CMakeFiles/FOPMixins.dir/flags.make
-CMakeFiles/FOPMixins.dir/Base/Graph.cpp.o: ../Base/Graph.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/marcus/CLionProjects/FOPMixins/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/FOPMixins.dir/Base/Graph.cpp.o"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/FOPMixins.dir/Base/Graph.cpp.o -c /home/marcus/CLionProjects/FOPMixins/Base/Graph.cpp
+CMakeFiles/FOPMixins.dir/Base/BaseEdge.cpp.o: CMakeFiles/FOPMixins.dir/flags.make
+CMakeFiles/FOPMixins.dir/Base/BaseEdge.cpp.o: ../Base/BaseEdge.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/svenmarcus/Documents/Projects/FOPMixins/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/FOPMixins.dir/Base/BaseEdge.cpp.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/FOPMixins.dir/Base/BaseEdge.cpp.o -c /Users/svenmarcus/Documents/Projects/FOPMixins/Base/BaseEdge.cpp
 
-CMakeFiles/FOPMixins.dir/Base/Graph.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/FOPMixins.dir/Base/Graph.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/marcus/CLionProjects/FOPMixins/Base/Graph.cpp > CMakeFiles/FOPMixins.dir/Base/Graph.cpp.i
+CMakeFiles/FOPMixins.dir/Base/BaseEdge.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/FOPMixins.dir/Base/BaseEdge.cpp.i"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/svenmarcus/Documents/Projects/FOPMixins/Base/BaseEdge.cpp > CMakeFiles/FOPMixins.dir/Base/BaseEdge.cpp.i
 
-CMakeFiles/FOPMixins.dir/Base/Graph.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/FOPMixins.dir/Base/Graph.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/marcus/CLionProjects/FOPMixins/Base/Graph.cpp -o CMakeFiles/FOPMixins.dir/Base/Graph.cpp.s
+CMakeFiles/FOPMixins.dir/Base/BaseEdge.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/FOPMixins.dir/Base/BaseEdge.cpp.s"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/svenmarcus/Documents/Projects/FOPMixins/Base/BaseEdge.cpp -o CMakeFiles/FOPMixins.dir/Base/BaseEdge.cpp.s
 
 CMakeFiles/FOPMixins.dir/Base/Node.cpp.o: CMakeFiles/FOPMixins.dir/flags.make
 CMakeFiles/FOPMixins.dir/Base/Node.cpp.o: ../Base/Node.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/marcus/CLionProjects/FOPMixins/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/FOPMixins.dir/Base/Node.cpp.o"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/FOPMixins.dir/Base/Node.cpp.o -c /home/marcus/CLionProjects/FOPMixins/Base/Node.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/svenmarcus/Documents/Projects/FOPMixins/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/FOPMixins.dir/Base/Node.cpp.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/FOPMixins.dir/Base/Node.cpp.o -c /Users/svenmarcus/Documents/Projects/FOPMixins/Base/Node.cpp
 
 CMakeFiles/FOPMixins.dir/Base/Node.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/FOPMixins.dir/Base/Node.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/marcus/CLionProjects/FOPMixins/Base/Node.cpp > CMakeFiles/FOPMixins.dir/Base/Node.cpp.i
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/svenmarcus/Documents/Projects/FOPMixins/Base/Node.cpp > CMakeFiles/FOPMixins.dir/Base/Node.cpp.i
 
 CMakeFiles/FOPMixins.dir/Base/Node.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/FOPMixins.dir/Base/Node.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/marcus/CLionProjects/FOPMixins/Base/Node.cpp -o CMakeFiles/FOPMixins.dir/Base/Node.cpp.s
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/svenmarcus/Documents/Projects/FOPMixins/Base/Node.cpp -o CMakeFiles/FOPMixins.dir/Base/Node.cpp.s
 
-CMakeFiles/FOPMixins.dir/Base/Edge.cpp.o: CMakeFiles/FOPMixins.dir/flags.make
-CMakeFiles/FOPMixins.dir/Base/Edge.cpp.o: ../Base/Edge.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/marcus/CLionProjects/FOPMixins/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/FOPMixins.dir/Base/Edge.cpp.o"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/FOPMixins.dir/Base/Edge.cpp.o -c /home/marcus/CLionProjects/FOPMixins/Base/Edge.cpp
+CMakeFiles/FOPMixins.dir/Base/BaseGraph.cpp.o: CMakeFiles/FOPMixins.dir/flags.make
+CMakeFiles/FOPMixins.dir/Base/BaseGraph.cpp.o: ../Base/BaseGraph.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/svenmarcus/Documents/Projects/FOPMixins/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/FOPMixins.dir/Base/BaseGraph.cpp.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/FOPMixins.dir/Base/BaseGraph.cpp.o -c /Users/svenmarcus/Documents/Projects/FOPMixins/Base/BaseGraph.cpp
 
-CMakeFiles/FOPMixins.dir/Base/Edge.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/FOPMixins.dir/Base/Edge.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/marcus/CLionProjects/FOPMixins/Base/Edge.cpp > CMakeFiles/FOPMixins.dir/Base/Edge.cpp.i
+CMakeFiles/FOPMixins.dir/Base/BaseGraph.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/FOPMixins.dir/Base/BaseGraph.cpp.i"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/svenmarcus/Documents/Projects/FOPMixins/Base/BaseGraph.cpp > CMakeFiles/FOPMixins.dir/Base/BaseGraph.cpp.i
 
-CMakeFiles/FOPMixins.dir/Base/Edge.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/FOPMixins.dir/Base/Edge.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/marcus/CLionProjects/FOPMixins/Base/Edge.cpp -o CMakeFiles/FOPMixins.dir/Base/Edge.cpp.s
-
-CMakeFiles/FOPMixins.dir/Hierholzer/HierholzerGraph.cpp.o: CMakeFiles/FOPMixins.dir/flags.make
-CMakeFiles/FOPMixins.dir/Hierholzer/HierholzerGraph.cpp.o: ../Hierholzer/HierholzerGraph.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/marcus/CLionProjects/FOPMixins/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object CMakeFiles/FOPMixins.dir/Hierholzer/HierholzerGraph.cpp.o"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/FOPMixins.dir/Hierholzer/HierholzerGraph.cpp.o -c /home/marcus/CLionProjects/FOPMixins/Hierholzer/HierholzerGraph.cpp
-
-CMakeFiles/FOPMixins.dir/Hierholzer/HierholzerGraph.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/FOPMixins.dir/Hierholzer/HierholzerGraph.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/marcus/CLionProjects/FOPMixins/Hierholzer/HierholzerGraph.cpp > CMakeFiles/FOPMixins.dir/Hierholzer/HierholzerGraph.cpp.i
-
-CMakeFiles/FOPMixins.dir/Hierholzer/HierholzerGraph.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/FOPMixins.dir/Hierholzer/HierholzerGraph.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/marcus/CLionProjects/FOPMixins/Hierholzer/HierholzerGraph.cpp -o CMakeFiles/FOPMixins.dir/Hierholzer/HierholzerGraph.cpp.s
+CMakeFiles/FOPMixins.dir/Base/BaseGraph.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/FOPMixins.dir/Base/BaseGraph.cpp.s"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/svenmarcus/Documents/Projects/FOPMixins/Base/BaseGraph.cpp -o CMakeFiles/FOPMixins.dir/Base/BaseGraph.cpp.s
 
 # Object files for target FOPMixins
 FOPMixins_OBJECTS = \
 "CMakeFiles/FOPMixins.dir/main.cpp.o" \
-"CMakeFiles/FOPMixins.dir/Base/Graph.cpp.o" \
+"CMakeFiles/FOPMixins.dir/Base/BaseEdge.cpp.o" \
 "CMakeFiles/FOPMixins.dir/Base/Node.cpp.o" \
-"CMakeFiles/FOPMixins.dir/Base/Edge.cpp.o" \
-"CMakeFiles/FOPMixins.dir/Hierholzer/HierholzerGraph.cpp.o"
+"CMakeFiles/FOPMixins.dir/Base/BaseGraph.cpp.o"
 
 # External object files for target FOPMixins
 FOPMixins_EXTERNAL_OBJECTS =
 
 FOPMixins: CMakeFiles/FOPMixins.dir/main.cpp.o
-FOPMixins: CMakeFiles/FOPMixins.dir/Base/Graph.cpp.o
+FOPMixins: CMakeFiles/FOPMixins.dir/Base/BaseEdge.cpp.o
 FOPMixins: CMakeFiles/FOPMixins.dir/Base/Node.cpp.o
-FOPMixins: CMakeFiles/FOPMixins.dir/Base/Edge.cpp.o
-FOPMixins: CMakeFiles/FOPMixins.dir/Hierholzer/HierholzerGraph.cpp.o
+FOPMixins: CMakeFiles/FOPMixins.dir/Base/BaseGraph.cpp.o
 FOPMixins: CMakeFiles/FOPMixins.dir/build.make
 FOPMixins: CMakeFiles/FOPMixins.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/marcus/CLionProjects/FOPMixins/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Linking CXX executable FOPMixins"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/Users/svenmarcus/Documents/Projects/FOPMixins/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Linking CXX executable FOPMixins"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/FOPMixins.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
@@ -153,6 +138,6 @@ CMakeFiles/FOPMixins.dir/clean:
 .PHONY : CMakeFiles/FOPMixins.dir/clean
 
 CMakeFiles/FOPMixins.dir/depend:
-	cd /home/marcus/CLionProjects/FOPMixins/cmake-build-debug && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/marcus/CLionProjects/FOPMixins /home/marcus/CLionProjects/FOPMixins /home/marcus/CLionProjects/FOPMixins/cmake-build-debug /home/marcus/CLionProjects/FOPMixins/cmake-build-debug /home/marcus/CLionProjects/FOPMixins/cmake-build-debug/CMakeFiles/FOPMixins.dir/DependInfo.cmake --color=$(COLOR)
+	cd /Users/svenmarcus/Documents/Projects/FOPMixins/cmake-build-debug && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /Users/svenmarcus/Documents/Projects/FOPMixins /Users/svenmarcus/Documents/Projects/FOPMixins /Users/svenmarcus/Documents/Projects/FOPMixins/cmake-build-debug /Users/svenmarcus/Documents/Projects/FOPMixins/cmake-build-debug /Users/svenmarcus/Documents/Projects/FOPMixins/cmake-build-debug/CMakeFiles/FOPMixins.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : CMakeFiles/FOPMixins.dir/depend
 

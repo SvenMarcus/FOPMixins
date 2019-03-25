@@ -2,17 +2,17 @@
 // Created by marcus on 3/21/19.
 //
 
-#ifndef FOPMIXINS_EDGE_H
-#define FOPMIXINS_EDGE_H
+#ifndef FOPMIXINS_WEDGE_H
+#define FOPMIXINS_WEDGE_H
 
 #include <utility>
 
-template<class Edge>
-class WeightedEdge : Edge {
+template<class BaseEdge>
+class WeightedEdge : public BaseEdge {
 public:
-    template<typename...Args>
-    explicit WeightedEdge(double weight, Args &&... args) :
-            Edge(std::forward<Args>(args)...),
+    template<typename... Args>
+    WeightedEdge(double weight, Args &&... args) :
+            BaseEdge(std::forward<Args>(args)...),
             weight(weight) {};
 
     double getWeight() {
@@ -24,5 +24,4 @@ private:
 };
 
 
-
-#endif //FOPMIXINS_EDGE_H
+#endif //FOPMIXINS_WEDGE_H

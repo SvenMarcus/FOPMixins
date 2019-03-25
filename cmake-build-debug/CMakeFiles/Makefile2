@@ -50,19 +50,19 @@ cmake_force:
 SHELL = /bin/sh
 
 # The CMake executable.
-CMAKE_COMMAND = /home/marcus/.local/share/JetBrains/Toolbox/apps/CLion/ch-0/183.5429.37/bin/cmake/linux/bin/cmake
+CMAKE_COMMAND = "/Users/svenmarcus/Library/Application Support/JetBrains/Toolbox/apps/CLion/ch-0/183.5429.37/CLion.app/Contents/bin/cmake/mac/bin/cmake"
 
 # The command to remove a file.
-RM = /home/marcus/.local/share/JetBrains/Toolbox/apps/CLion/ch-0/183.5429.37/bin/cmake/linux/bin/cmake -E remove -f
+RM = "/Users/svenmarcus/Library/Application Support/JetBrains/Toolbox/apps/CLion/ch-0/183.5429.37/CLion.app/Contents/bin/cmake/mac/bin/cmake" -E remove -f
 
 # Escaping for special characters.
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/marcus/CLionProjects/FOPMixins
+CMAKE_SOURCE_DIR = /Users/svenmarcus/Documents/Projects/FOPMixins
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/marcus/CLionProjects/FOPMixins/cmake-build-debug
+CMAKE_BINARY_DIR = /Users/svenmarcus/Documents/Projects/FOPMixins/cmake-build-debug
 
 #=============================================================================
 # Target rules for target CMakeFiles/FOPMixins.dir
@@ -71,7 +71,7 @@ CMAKE_BINARY_DIR = /home/marcus/CLionProjects/FOPMixins/cmake-build-debug
 CMakeFiles/FOPMixins.dir/all:
 	$(MAKE) -f CMakeFiles/FOPMixins.dir/build.make CMakeFiles/FOPMixins.dir/depend
 	$(MAKE) -f CMakeFiles/FOPMixins.dir/build.make CMakeFiles/FOPMixins.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/marcus/CLionProjects/FOPMixins/cmake-build-debug/CMakeFiles --progress-num=1,2,3,4,5,6 "Built target FOPMixins"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/svenmarcus/Documents/Projects/FOPMixins/cmake-build-debug/CMakeFiles --progress-num=1,2,3,4,5 "Built target FOPMixins"
 .PHONY : CMakeFiles/FOPMixins.dir/all
 
 # Include target in all.
@@ -81,9 +81,9 @@ all: CMakeFiles/FOPMixins.dir/all
 
 # Build rule for subdir invocation for target.
 CMakeFiles/FOPMixins.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/marcus/CLionProjects/FOPMixins/cmake-build-debug/CMakeFiles 6
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/svenmarcus/Documents/Projects/FOPMixins/cmake-build-debug/CMakeFiles 5
 	$(MAKE) -f CMakeFiles/Makefile2 CMakeFiles/FOPMixins.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/marcus/CLionProjects/FOPMixins/cmake-build-debug/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/svenmarcus/Documents/Projects/FOPMixins/cmake-build-debug/CMakeFiles 0
 .PHONY : CMakeFiles/FOPMixins.dir/rule
 
 # Convenience name for target.

@@ -6,18 +6,21 @@
 #define FOPMIXINS_EDGE_H
 
 
-#include "Node.h"
+class Node;
 
-class Edge {
+class BaseEdge {
 public:
-    Edge(Node &start, Node &end);
-    Node& getStart();
-    Node& getEnd();
+    BaseEdge(Node &start, Node &end);
+
+    Node* getStart();
+
+    Node* getEnd();
 
 private:
     void addEdgeToNodes();
-    Node &start;
-    Node &end;
+
+    Node* start;
+    Node* end;
 };
 
 

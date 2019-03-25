@@ -8,18 +8,22 @@
 
 #include <string>
 #include <vector>
-#include "Edge.h"
+
+class BaseEdge;
 
 class Node {
 public:
     explicit Node(std::string &name);
+
     std::string getName();
-    void addEdge(WeightedEdge&);
-    std::vector<WeightedEdge&> getEdges();
+
+    void addEdge(BaseEdge *);
+
+    std::vector<BaseEdge *> *getEdges();
 
 private:
     std::string name;
-    std::vector<WeightedEdge&> edges;
+    std::vector<BaseEdge *> *edges = new std::vector<BaseEdge *>();
 
 };
 

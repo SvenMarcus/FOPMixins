@@ -4,13 +4,12 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
-  "/home/marcus/CLionProjects/FOPMixins/Base/Edge.cpp" "/home/marcus/CLionProjects/FOPMixins/cmake-build-debug/CMakeFiles/FOPMixins.dir/Base/Edge.cpp.o"
-  "/home/marcus/CLionProjects/FOPMixins/Base/Graph.cpp" "/home/marcus/CLionProjects/FOPMixins/cmake-build-debug/CMakeFiles/FOPMixins.dir/Base/Graph.cpp.o"
-  "/home/marcus/CLionProjects/FOPMixins/Base/Node.cpp" "/home/marcus/CLionProjects/FOPMixins/cmake-build-debug/CMakeFiles/FOPMixins.dir/Base/Node.cpp.o"
-  "/home/marcus/CLionProjects/FOPMixins/Hierholzer/HierholzerGraph.cpp" "/home/marcus/CLionProjects/FOPMixins/cmake-build-debug/CMakeFiles/FOPMixins.dir/Hierholzer/HierholzerGraph.cpp.o"
-  "/home/marcus/CLionProjects/FOPMixins/main.cpp" "/home/marcus/CLionProjects/FOPMixins/cmake-build-debug/CMakeFiles/FOPMixins.dir/main.cpp.o"
+  "/Users/svenmarcus/Documents/Projects/FOPMixins/Base/BaseEdge.cpp" "/Users/svenmarcus/Documents/Projects/FOPMixins/cmake-build-debug/CMakeFiles/FOPMixins.dir/Base/BaseEdge.cpp.o"
+  "/Users/svenmarcus/Documents/Projects/FOPMixins/Base/BaseGraph.cpp" "/Users/svenmarcus/Documents/Projects/FOPMixins/cmake-build-debug/CMakeFiles/FOPMixins.dir/Base/BaseGraph.cpp.o"
+  "/Users/svenmarcus/Documents/Projects/FOPMixins/Base/Node.cpp" "/Users/svenmarcus/Documents/Projects/FOPMixins/cmake-build-debug/CMakeFiles/FOPMixins.dir/Base/Node.cpp.o"
+  "/Users/svenmarcus/Documents/Projects/FOPMixins/main.cpp" "/Users/svenmarcus/Documents/Projects/FOPMixins/cmake-build-debug/CMakeFiles/FOPMixins.dir/main.cpp.o"
   )
-set(CMAKE_CXX_COMPILER_ID "GNU")
+set(CMAKE_CXX_COMPILER_ID "AppleClang")
 
 # The include file search paths:
 set(CMAKE_CXX_TARGET_INCLUDE_PATH

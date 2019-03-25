@@ -39,19 +39,19 @@ cmake_force:
 SHELL = /bin/sh
 
 # The CMake executable.
-CMAKE_COMMAND = /home/marcus/.local/share/JetBrains/Toolbox/apps/CLion/ch-0/183.5429.37/bin/cmake/linux/bin/cmake
+CMAKE_COMMAND = "/Users/svenmarcus/Library/Application Support/JetBrains/Toolbox/apps/CLion/ch-0/183.5429.37/CLion.app/Contents/bin/cmake/mac/bin/cmake"
 
 # The command to remove a file.
-RM = /home/marcus/.local/share/JetBrains/Toolbox/apps/CLion/ch-0/183.5429.37/bin/cmake/linux/bin/cmake -E remove -f
+RM = "/Users/svenmarcus/Library/Application Support/JetBrains/Toolbox/apps/CLion/ch-0/183.5429.37/CLion.app/Contents/bin/cmake/mac/bin/cmake" -E remove -f
 
 # Escaping for special characters.
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/marcus/CLionProjects/FOPMixins
+CMAKE_SOURCE_DIR = /Users/svenmarcus/Documents/Projects/FOPMixins
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/marcus/CLionProjects/FOPMixins/cmake-build-debug
+CMAKE_BINARY_DIR = /Users/svenmarcus/Documents/Projects/FOPMixins/cmake-build-debug
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -59,7 +59,7 @@ CMAKE_BINARY_DIR = /home/marcus/CLionProjects/FOPMixins/cmake-build-debug
 # Special rule for the target rebuild_cache
 rebuild_cache:
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Running CMake to regenerate build system..."
-	/home/marcus/.local/share/JetBrains/Toolbox/apps/CLion/ch-0/183.5429.37/bin/cmake/linux/bin/cmake -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR)
+	"/Users/svenmarcus/Library/Application Support/JetBrains/Toolbox/apps/CLion/ch-0/183.5429.37/CLion.app/Contents/bin/cmake/mac/bin/cmake" -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR)
 .PHONY : rebuild_cache
 
 # Special rule for the target rebuild_cache
@@ -70,7 +70,7 @@ rebuild_cache/fast: rebuild_cache
 # Special rule for the target edit_cache
 edit_cache:
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "No interactive CMake dialog available..."
-	/home/marcus/.local/share/JetBrains/Toolbox/apps/CLion/ch-0/183.5429.37/bin/cmake/linux/bin/cmake -E echo No\ interactive\ CMake\ dialog\ available.
+	"/Users/svenmarcus/Library/Application Support/JetBrains/Toolbox/apps/CLion/ch-0/183.5429.37/CLion.app/Contents/bin/cmake/mac/bin/cmake" -E echo No\ interactive\ CMake\ dialog\ available.
 .PHONY : edit_cache
 
 # Special rule for the target edit_cache
@@ -80,9 +80,9 @@ edit_cache/fast: edit_cache
 
 # The main all target
 all: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/marcus/CLionProjects/FOPMixins/cmake-build-debug/CMakeFiles /home/marcus/CLionProjects/FOPMixins/cmake-build-debug/CMakeFiles/progress.marks
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/svenmarcus/Documents/Projects/FOPMixins/cmake-build-debug/CMakeFiles /Users/svenmarcus/Documents/Projects/FOPMixins/cmake-build-debug/CMakeFiles/progress.marks
 	$(MAKE) -f CMakeFiles/Makefile2 all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/marcus/CLionProjects/FOPMixins/cmake-build-debug/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/svenmarcus/Documents/Projects/FOPMixins/cmake-build-debug/CMakeFiles 0
 .PHONY : all
 
 # The main clean target
@@ -123,59 +123,59 @@ FOPMixins/fast:
 	$(MAKE) -f CMakeFiles/FOPMixins.dir/build.make CMakeFiles/FOPMixins.dir/build
 .PHONY : FOPMixins/fast
 
-Base/Edge.o: Base/Edge.cpp.o
+Base/BaseEdge.o: Base/BaseEdge.cpp.o
 
-.PHONY : Base/Edge.o
-
-# target to build an object file
-Base/Edge.cpp.o:
-	$(MAKE) -f CMakeFiles/FOPMixins.dir/build.make CMakeFiles/FOPMixins.dir/Base/Edge.cpp.o
-.PHONY : Base/Edge.cpp.o
-
-Base/Edge.i: Base/Edge.cpp.i
-
-.PHONY : Base/Edge.i
-
-# target to preprocess a source file
-Base/Edge.cpp.i:
-	$(MAKE) -f CMakeFiles/FOPMixins.dir/build.make CMakeFiles/FOPMixins.dir/Base/Edge.cpp.i
-.PHONY : Base/Edge.cpp.i
-
-Base/Edge.s: Base/Edge.cpp.s
-
-.PHONY : Base/Edge.s
-
-# target to generate assembly for a file
-Base/Edge.cpp.s:
-	$(MAKE) -f CMakeFiles/FOPMixins.dir/build.make CMakeFiles/FOPMixins.dir/Base/Edge.cpp.s
-.PHONY : Base/Edge.cpp.s
-
-Base/Graph.o: Base/Graph.cpp.o
-
-.PHONY : Base/Graph.o
+.PHONY : Base/BaseEdge.o
 
 # target to build an object file
-Base/Graph.cpp.o:
-	$(MAKE) -f CMakeFiles/FOPMixins.dir/build.make CMakeFiles/FOPMixins.dir/Base/Graph.cpp.o
-.PHONY : Base/Graph.cpp.o
+Base/BaseEdge.cpp.o:
+	$(MAKE) -f CMakeFiles/FOPMixins.dir/build.make CMakeFiles/FOPMixins.dir/Base/BaseEdge.cpp.o
+.PHONY : Base/BaseEdge.cpp.o
 
-Base/Graph.i: Base/Graph.cpp.i
+Base/BaseEdge.i: Base/BaseEdge.cpp.i
 
-.PHONY : Base/Graph.i
+.PHONY : Base/BaseEdge.i
 
 # target to preprocess a source file
-Base/Graph.cpp.i:
-	$(MAKE) -f CMakeFiles/FOPMixins.dir/build.make CMakeFiles/FOPMixins.dir/Base/Graph.cpp.i
-.PHONY : Base/Graph.cpp.i
+Base/BaseEdge.cpp.i:
+	$(MAKE) -f CMakeFiles/FOPMixins.dir/build.make CMakeFiles/FOPMixins.dir/Base/BaseEdge.cpp.i
+.PHONY : Base/BaseEdge.cpp.i
 
-Base/Graph.s: Base/Graph.cpp.s
+Base/BaseEdge.s: Base/BaseEdge.cpp.s
 
-.PHONY : Base/Graph.s
+.PHONY : Base/BaseEdge.s
 
 # target to generate assembly for a file
-Base/Graph.cpp.s:
-	$(MAKE) -f CMakeFiles/FOPMixins.dir/build.make CMakeFiles/FOPMixins.dir/Base/Graph.cpp.s
-.PHONY : Base/Graph.cpp.s
+Base/BaseEdge.cpp.s:
+	$(MAKE) -f CMakeFiles/FOPMixins.dir/build.make CMakeFiles/FOPMixins.dir/Base/BaseEdge.cpp.s
+.PHONY : Base/BaseEdge.cpp.s
+
+Base/BaseGraph.o: Base/BaseGraph.cpp.o
+
+.PHONY : Base/BaseGraph.o
+
+# target to build an object file
+Base/BaseGraph.cpp.o:
+	$(MAKE) -f CMakeFiles/FOPMixins.dir/build.make CMakeFiles/FOPMixins.dir/Base/BaseGraph.cpp.o
+.PHONY : Base/BaseGraph.cpp.o
+
+Base/BaseGraph.i: Base/BaseGraph.cpp.i
+
+.PHONY : Base/BaseGraph.i
+
+# target to preprocess a source file
+Base/BaseGraph.cpp.i:
+	$(MAKE) -f CMakeFiles/FOPMixins.dir/build.make CMakeFiles/FOPMixins.dir/Base/BaseGraph.cpp.i
+.PHONY : Base/BaseGraph.cpp.i
+
+Base/BaseGraph.s: Base/BaseGraph.cpp.s
+
+.PHONY : Base/BaseGraph.s
+
+# target to generate assembly for a file
+Base/BaseGraph.cpp.s:
+	$(MAKE) -f CMakeFiles/FOPMixins.dir/build.make CMakeFiles/FOPMixins.dir/Base/BaseGraph.cpp.s
+.PHONY : Base/BaseGraph.cpp.s
 
 Base/Node.o: Base/Node.cpp.o
 
@@ -203,33 +203,6 @@ Base/Node.s: Base/Node.cpp.s
 Base/Node.cpp.s:
 	$(MAKE) -f CMakeFiles/FOPMixins.dir/build.make CMakeFiles/FOPMixins.dir/Base/Node.cpp.s
 .PHONY : Base/Node.cpp.s
-
-Hierholzer/HierholzerGraph.o: Hierholzer/HierholzerGraph.cpp.o
-
-.PHONY : Hierholzer/HierholzerGraph.o
-
-# target to build an object file
-Hierholzer/HierholzerGraph.cpp.o:
-	$(MAKE) -f CMakeFiles/FOPMixins.dir/build.make CMakeFiles/FOPMixins.dir/Hierholzer/HierholzerGraph.cpp.o
-.PHONY : Hierholzer/HierholzerGraph.cpp.o
-
-Hierholzer/HierholzerGraph.i: Hierholzer/HierholzerGraph.cpp.i
-
-.PHONY : Hierholzer/HierholzerGraph.i
-
-# target to preprocess a source file
-Hierholzer/HierholzerGraph.cpp.i:
-	$(MAKE) -f CMakeFiles/FOPMixins.dir/build.make CMakeFiles/FOPMixins.dir/Hierholzer/HierholzerGraph.cpp.i
-.PHONY : Hierholzer/HierholzerGraph.cpp.i
-
-Hierholzer/HierholzerGraph.s: Hierholzer/HierholzerGraph.cpp.s
-
-.PHONY : Hierholzer/HierholzerGraph.s
-
-# target to generate assembly for a file
-Hierholzer/HierholzerGraph.cpp.s:
-	$(MAKE) -f CMakeFiles/FOPMixins.dir/build.make CMakeFiles/FOPMixins.dir/Hierholzer/HierholzerGraph.cpp.s
-.PHONY : Hierholzer/HierholzerGraph.cpp.s
 
 main.o: main.cpp.o
 
@@ -265,20 +238,17 @@ help:
 	@echo "... clean"
 	@echo "... depend"
 	@echo "... rebuild_cache"
-	@echo "... FOPMixins"
 	@echo "... edit_cache"
-	@echo "... Base/Edge.o"
-	@echo "... Base/Edge.i"
-	@echo "... Base/Edge.s"
-	@echo "... Base/Graph.o"
-	@echo "... Base/Graph.i"
-	@echo "... Base/Graph.s"
+	@echo "... FOPMixins"
+	@echo "... Base/BaseEdge.o"
+	@echo "... Base/BaseEdge.i"
+	@echo "... Base/BaseEdge.s"
+	@echo "... Base/BaseGraph.o"
+	@echo "... Base/BaseGraph.i"
+	@echo "... Base/BaseGraph.s"
 	@echo "... Base/Node.o"
 	@echo "... Base/Node.i"
 	@echo "... Base/Node.s"
-	@echo "... Hierholzer/HierholzerGraph.o"
-	@echo "... Hierholzer/HierholzerGraph.i"
-	@echo "... Hierholzer/HierholzerGraph.s"
 	@echo "... main.o"
 	@echo "... main.i"
 	@echo "... main.s"

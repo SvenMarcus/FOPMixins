@@ -8,35 +8,28 @@
 #include <vector>
 #include <map>
 #include "../Base/Node.h"
+#include "../Base/BaseEdge.h"
 
 template<class Graph>
-class HierholzerGraph : Graph {
+class HierholzerGraph : public Graph {
 public:
     HierholzerGraph() : Graph() {};
 
     bool isEulerian() {
-        std::vector<Node &> nodes = Graph::getNodes();
-        for (Node &node : nodes) {
-            if (node % 2 != 0)
+        std::vector<Node *> nodes = Graph::getNodes();
+        for (Node *node : nodes) {
+            auto edges = node->getEdges();
+            auto size = edges->size();
+            if (size % 2 != 0)
                 return false;
         }
 
         return true;
     }
 
-    void addNode(Node &node) {
-
+    void addNode(Node *node) {
+        Graph::addNode(node);
     }
-
-    std::vector<Node &> findEulerTour() {
-        if (!isEulerian())
-            return {};
-
-    }
-
-private:
-    std::map<Edge, bool> knownEdges = std::map<Edge, bool>();
-
 
 };
 

@@ -1,0 +1,22 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/Users/svenmarcus/Documents/Projects/FOPMixins/Base/BaseEdge.cpp
+BaseEdge.h
+/Users/svenmarcus/Documents/Projects/FOPMixins/Base/BaseEdge.h
+Node.h
+/Users/svenmarcus/Documents/Projects/FOPMixins/Base/Node.h
+
+/Users/svenmarcus/Documents/Projects/FOPMixins/Base/BaseEdge.h
+
+/Users/svenmarcus/Documents/Projects/FOPMixins/Base/Node.h
+string
+-
+vector
+-
+
